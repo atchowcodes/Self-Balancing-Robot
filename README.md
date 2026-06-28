@@ -13,7 +13,7 @@ This project implements a self-balancing robot based on the inverted pendulum pr
 
 ## System Architecture
 <img width="947" height="523" alt="image" src="https://github.com/user-attachments/assets/f94e8265-67d8-40af-9a50-5be0ac917efe" />
-Designed using Fritzing. Source file available at `main/self_balance_correct.fzz`.
+Designed using Fritzing. Source file available at `self_balance_correct.fzz`.
 
 ### Control Flow
 1. MPU6050 reads raw accelerometer and gyroscope values
