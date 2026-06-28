@@ -24,18 +24,17 @@ Designed using Fritzing. Source file available at `main/self_balance_correct.fzz
 6. A4988 motor drivers actuate NEMA 17 stepper motors
 
 ### Complementary Filter
-currentAngle = 0.98 * (previousAngle + gyroAngle) + 0.02 * accAngle
+currentAngle = 0.98 * (previousAngle + gyroAngle) + 0.02 * accAngle\\
+
 Combines slow-drifting gyroscope data with noisy-but-stable accelerometer data for accurate real-time angle estimation.
 
 ### PID Controller
-motorPower = Kperror + Ki∫error + Kd*(d_error/dt)
+motorPower = Kperror + Ki∫error + Kd*(d_error/dt)\\
 **Final tuned values:** Kp = 1, Ki = 40, Kd = 0.05
 
 ---
 
 ## Hardware
-
-![Hardware](assets/hardware.png)
 
 | Component | Function |
 |-----------|----------|
